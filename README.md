@@ -1,6 +1,6 @@
 ### Purpose
 
-A repo demonstrating CLJS Issue 2023
+A repo demonstrating [CLJS Issue 2023](https://dev.clojure.org/jira/browse/CLJS-2023)
 
 This repo provides a minimal harness for testing the efficacy of using `js/goog.DEBUG` 
 to provoke Dead Code Elimination in production builds.  
