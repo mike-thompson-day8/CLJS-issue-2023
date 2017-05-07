@@ -6,7 +6,7 @@ This repo provides a minimal harness for testing the efficacy of using `js/goog.
 to provoke Dead Code Elimination in production builds.  
 
 It compares the efficacy of `js/goog.DEBUG` and `goog.DEBUG`.  It can be used to 
-prove that a change of behaviour (bug!) occured for use of `js/goog.DEBUG` sometime 
+show a change of behaviour (bug!) occured sometime 
 between ClojureScript 1.9.293 and 1.9.456.
 
 ### Test Steps:
@@ -28,6 +28,8 @@ between ClojureScript 1.9.293 and 1.9.456.
         
 To appreciate step 3, look at the tiny amount of code in `src\core.cljs`.
 
-In my experiments:
-  - version 1.9.456 has the problem  (the damning string showed up in main.js)
-  - version 1.9.293 does not have the problem (no damning string showed up in main.js)
+### My Experimental Results
+
+By varing Step 1 (above), I found: 
+  - For ClojureScript version 1.9.456 there was a problem  (the damning string showed up in main.js)
+  - For ClojureScript version 1.9.293 there was NO problem (no damning string showed up in main.js)
