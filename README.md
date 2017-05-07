@@ -26,7 +26,9 @@ between ClojureScript 1.9.293 and 1.9.456.
     If you see `"If this string appears in main.js then '^boolean js/goog.DEBUG' is failing to cause DCE"` 
     the string is self explanatory.
         
-To appreciate step 3, look at the tiny amount of code in `src\core.cljs`.
+        
+To appreciate step 3, [look at the tiny amount of code in `src\core.cljs`](https://github.com/mike-thompson-day8/CLJS-issue-2023/blob/master/src/core.cljs).
+
 
 ### My Experimental Results
 
