@@ -1,5 +1,9 @@
 (ns test.core)
 
+;; Don't be fooled by the use of println in what follows. 
+;; We pay no attention to what is printed. 
+;; We care only about what strings end up in main.js
+
 (enable-console-print!)
 
 (if ^boolean js/goog.DEBUG
